@@ -270,6 +270,9 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 `smap` & `sfpga`
 - [Integrating Logic Synthesis, Technology Mapping, and Retiming](https://people.eecs.berkeley.edu/~alanmi/publications/2006/tech06_int.pdf)
 
+`atmap`
+- A Design of Compressor Trees for LLM Module (IWLS 2025)
+
 #### Other reference
 - Recommend this [slide](http://cc.ee.ntu.edu.tw/~jhjiang/instruction/courses/fall14-lsv/lec08_2p.pdf) about technology mapping by Prof Jie-Hong Roland Jiang.
 - [FlowMap: An Optimal Technology Mapping Algorithm for Delay Optimization
