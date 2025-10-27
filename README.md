@@ -9,6 +9,9 @@ Most of the paper referenced here can be found at Alan Mishchenko's [publication
 
 Another [EPFL Isils group](https://github.com/lsils) also has very high quality synthesis research, feel free to add anything interesting to the list.
 
+## Unit Test
+[TestABC](https://github.com/wjrforcyber/TestABC) is a repository that I sometimes write unit tests for ABC. The credit goes to [@QuantamHD](https://github.com/QuantamHD) for adding the original Google test module and also verification in the github workflow, however, few people add tests to it after that. Writing unit tests can help verify the interface works as expected, it is also a good way to decompose and understand how ABC works under the hood, I start to record some unit tests these days, but I can't make sure I could verify all of them since there are too many. It's probably going to be task-driven like. If you are interested, feel free to add your tests and description of the interfaces in the [README.md](https://github.com/wjrforcyber/TestABC/blob/main/README.md).
+
 ## General introduction
 - [ABC: An academic industrial-strength verification tool](https://people.eecs.berkeley.edu/~alanmi/publications/2010/cav10_abc.pdf)
 <br/>This introduction is a bit old but contains history of all Berkeley's tools and how ABC is started, it is written by Prof Robert Brayton.
