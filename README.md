@@ -406,6 +406,12 @@ A brief historical view and corresponding introduction of UCB's synthesis and ve
 - SIS [SIS: A System for Sequential Circuit Synthesis](https://www2.eecs.berkeley.edu/Pubs/TechRpts/1992/ERL-92-41.pdf)
 - VIS(Verification Interacting with Synthesis)[VIS : A System for Verification and Synthesis](https://www.cs.columbia.edu/~sedwards/papers/brayton1996vis.pdf)
 - MVSIS [MVSIS 2.0 Programmer’s Manual](https://ptolemy.berkeley.edu/projects/embedded/mvsis/doc/mvsis_20_prog.pdf)
+
+### Some discussion
+- Why AIG?
+Why intensively using AIG in ABC at the first place? This question does not seem to have a very concrete explanation in history, Prof. Robert K Brayton used to mention different representation about nodes in his paper [Multilevel Logic Synthesis](https://people.eecs.berkeley.edu/~alanmi/publications/other/multi_level.pdf) back in 1990. (At that time, project ABC hadn't been started.) In section III.B, **general node**, **generic node** and **discrete node** are listed and discussed. If ignore the complemented attribute on edges then AIG can be seen as "generic" (But a strict and proper "generic" should be the same Boolean complete gate in the whole network without other gates, such as NAND gate) and it is quite efficient to manipulate and costs less memory. And you would and could of course use other generic representation, or even discrete one if they are Boolean complete.
+
+
 <details>
   <summary>
     <h2>
