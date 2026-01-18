@@ -123,6 +123,13 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 
 ### Optimization Group
 
+`atmap`
+<br>A compressor tree generator, designed for LLM module. Mainly discussion implementation on adders, proposed 6_4 block. The work was inspired by [The Era of 1-bit LLMs:
+All Large Language Models are in 1.58 Bits](https://arxiv.org/pdf/2402.17764).
+
+- `&genneuron` is also mentioned and has been compared in this work.
+
+
 `strash`
 <br>Structural hashing
 - One-level strashing: Make sure nodes have different fanins(up to permutation).
