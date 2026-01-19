@@ -224,6 +224,9 @@ All Large Language Models are in 1.58 Bits](https://arxiv.org/pdf/2402.17764).
 - [SAT-Based Area Recovery in Structural Technology Mapping](https://people.eecs.berkeley.edu/~alanmi/publications/2018/aspdac18_satlut.pdf)
 
 `&transduction`
+- [Transduction Method for AIG Minimization](https://people.eecs.berkeley.edu/~alanmi/publications/2023/iwls23_yukio.pdf)
+
+`&transtoch`
 - [Randomized Transduction for High-Effort Logic Synthesis](https://people.eecs.berkeley.edu/~alanmi/publications/2024/iwls24_transd.pdf)
 
 `lutmin`
