@@ -68,6 +68,9 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 - Logic-level augmentation.
 - Relevant [repository](https://github.com/Yu-Maryland/Verilog-to-PyG).
 
+`collapse`
+- Construct BDD on current network.
+
 `&get` & `&put`
 - ABC has ABC space and ABC9 space, example of using them interchangeably:
 <br> `read_aiger i10.aig; strash; &get; &b; &st; &put; rewrite; refactor; ps`
@@ -99,6 +102,9 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 
 `read_super`
 - Concepts of supergates can be found in [Reference0](https://people.eecs.berkeley.edu/~alanmi/publications/2005/tech05_map.pdf) and [Reference1](https://people.eecs.berkeley.edu/~alanmi/publications/2005/tcad05_map.pdf).
+
+`sop`
+- Create ISOP from BDD.
   
 `super`
 - In ABC this command for constructing supergates only accepts a library in genlib format, if you are using a standard cell library, dump a genlib first.
@@ -204,6 +210,10 @@ All Large Language Models are in 1.58 Bits](https://arxiv.org/pdf/2402.17764).
 - SAT-based exact synthesis with side-divisors
 - [SAT Based Exact Synthesis using DAG Topology Families](https://people.eecs.berkeley.edu/~alanmi/publications/2018/dac18_topo.pdf)
 <br>*Note: The above three commands with commands such as `runeco` and `&genrel` can be found in [this repo](https://github.com/alanminko/resub).
+
+`&ttopt`
+- Synthesis BDD to AIG with intense variable reordering.
+- [Synthesis of LUT Networks for Random-Looking Dense Functions with Don’t Cares — Towards Efficient FPGA Implementation of DNN](https://people.eecs.berkeley.edu/~alanmi/publications/2024/fccm24_lut.pdf)
 
 `&reshape`
 - [Control Logic Restructuring for Area Optimization](https://people.eecs.berkeley.edu/~alanmi/publications/2022/iwls22_reshape.pdf)
