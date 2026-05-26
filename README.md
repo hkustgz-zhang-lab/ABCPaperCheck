@@ -77,13 +77,14 @@ Some structure concept such as K-feasible cuts, priority cuts, MFFC in ABC can b
 <br> `&r i10.aig; &st; &if -g; &put; balance; rewrite; ps`
 <br> `read_aiger i10.aig; strash; &get; &if -g; &ps`
 
-`read_aiger`
+`&r` & `read_aiger`
 - [Local Two-Level And-Inverter Graph Minimization without Blowup](https://fmv.jku.at/papers/BrummayerBiere-MEMICS06.pdf)
 <br>This one is referenced in ABC when constructing AIG.
 - [AIGER 1.9 AND Beyond](https://fmv.jku.at/papers/BiereHeljankoWieringa-FMV-TR-11-2.pdf)
 - [The AIGER And-Inverter Graph (AIG) Format Version 20071012](https://fmv.jku.at/papers/Biere-FMV-TR-07-1.pdf)
 <br>This version is much more detailed than the latest one and illustrates the original AIG format and how to parse it. If you are working on a parser, read this carefully, I recommend reading the [aiger parser in lorina](https://github.com/hriener/lorina/blob/master/include/lorina/aiger.hpp), which is implemented in regular expression, in ABC, this is done by hard-core char by char shifting.
 <br>Prof Armin Biere's [repo](https://github.com/arminbiere/aiger) would help you do the transformation between aig and other format.
+- `-s` option in `&r`could help read an AIG without structure hashing. Useful when you have redundancy on purpose.
 
 `read_bench` 
 - Read a [bench format file](https://sportlab.usc.edu/~msabrishami/benchmark-project/bench.html)
