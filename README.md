@@ -158,6 +158,9 @@ All Large Language Models are in 1.58 Bits](https://arxiv.org/pdf/2402.17764).
   - [Sasao-Matsuura](http://www.lsi-cad.com/sasao/Papers/files/IWLS1998.pdf)
   - [An approach to disjoint-support decomposition of logic functions](https://people.eecs.berkeley.edu/~alanmi/publications/2001/tech01_dsd.pdf)
   <br>This implementation should be in [EXTRA](https://people.eecs.berkeley.edu/~alanmi/research/extra/) library.
+  
+`dsd_filter -s`
+- [Effective Logic Synthesis for Threshold Logic Circuit Design](https://people.eecs.berkeley.edu/~alanmi/publications/2019/tcad19_thresh.pdf)
 
 `dsec`
 <br>Sequential Equivalence Checking.
