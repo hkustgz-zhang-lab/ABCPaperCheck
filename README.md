@@ -160,6 +160,7 @@ All Large Language Models are in 1.58 Bits](https://arxiv.org/pdf/2402.17764).
   <br>This implementation should be in [EXTRA](https://people.eecs.berkeley.edu/~alanmi/research/extra/) library.
   
 `dsd_filter -s`
+- [Threshold logic synthesis based on cut pruning](https://people.eecs.berkeley.edu/~alanmi/publications/2015/iccad15_thresh.pdf).
 - [Effective Logic Synthesis for Threshold Logic Circuit Design](https://people.eecs.berkeley.edu/~alanmi/publications/2019/tcad19_thresh.pdf)
 
 `dsec`
