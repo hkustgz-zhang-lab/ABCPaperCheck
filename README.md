@@ -245,6 +245,7 @@ All Large Language Models are in 1.58 Bits](https://arxiv.org/pdf/2402.17764).
 - [Randomized Transduction for High-Effort Logic Synthesis](https://people.eecs.berkeley.edu/~alanmi/publications/2024/iwls24_transd.pdf)
 
 `lutmin`
+- [LUTMIN: FPGA Logic Synthesis with MUX-Based and Cascade Realizations](https://people.eecs.berkeley.edu/~alanmi/publications/2009/iwls09_lutmin.pdf)
 - [Encoding of Boolean functions and its application to LUT cascade synthesis](https://people.eecs.berkeley.edu/~alanmi/publications/2002/iwls02_enc.pdf)
 <br>The paper itself does not mention ABC but in this [paper](https://people.eecs.berkeley.edu/~alanmi/publications/2023/iwls23_lut.pdf), reference links `lutmin` here.
 
